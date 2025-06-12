@@ -26,24 +26,6 @@ O dataset utilizado (`crimes.csv`) é uma versão modificada de dados publicamen
 
 ---
 
-### 📈 Análise e Insights
-
-A análise exploratória dos dados revelou os seguintes insights:
-
-- **Distribuição de Crimes por Hora do Dia**  
-  Foi identificado um pico de ocorrências criminais em uma hora específica do dia.  
-  **Hora de Pico de Crimes**: **[Inserir a variável `peak_crime_hour` aqui]** horas  
-  > *(Sugestão: incluir o gráfico gerado com `sns.countplot(data=crimes, x="Hour OCC")`)*
-
-- **Crimes Noturnos por Área**  
-  Focando nas ocorrências entre 00:00h–05:59h e 20:00h–23:59h, foi possível determinar a área com o maior número de incidentes noturnos.  
-  **Área com Maior Incidência de Crimes Noturnos**: **[Inserir a variável `peak_night_crime_location` aqui]**
-
-- **Faixa Etária das Vítimas**  
-  As vítimas foram categorizadas por faixas etárias para entender a distribuição dos crimes entre os grupos de idade.  
-  **Distribuição de Vítimas por Faixa Etária**:  
-
-
 ### 🔍 Exemplo de `.head()` do Dataset
 
 | DR_NO      | Date Rptd | DATE OCC  | TIME OCC | AREA NAME  | Crm Cd Desc       | Vict Age | Vict Sex | Vict Descent | Weapon Desc | Status Desc | LOCATION           |
